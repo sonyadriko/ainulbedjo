@@ -113,6 +113,10 @@ a {
 
 /* Contact Me */
 
+.contact-me {
+	cursor: default;
+}
+
 .contact-me > div > a {
 	padding: 10px;
 }
@@ -152,6 +156,7 @@ a {
 .about-me > .container > .description {
 	margin-top: 2rem;
 	margin-bottom: 5rem;
+	line-height: 2em;
 	font-family: 'monaco';
 	font-weight: 700
 }
