@@ -22,6 +22,11 @@ body {
 	color: #f0f0f0;
 }
 
+a {
+	text-decoration: none;
+	color: #37474f;
+}
+
 /* Header (profile-pic, description, stuff) */
 
 .header {
@@ -109,7 +114,7 @@ body {
 
 /* Header :: END */
 
-/* Content ( project list, contact me ) */
+/* Content ( project list ) */
 
 .flask-icon {
 	font-size: 630% !important;
@@ -122,11 +127,43 @@ body {
 }
 
 .content {
-	background: royalblue;
+	background: #0277bd;
 }
 
 .title-section {
 	padding-top: 40px
+}
+
+.project {
+	margin-top: 5rem;
+}
+
+.project > ul {
+	padding: 0;
+}
+
+.project > ul > li {
+	margin-top: 2%;
+	list-style-type: none;
+	width: 60%;
+	background-color: #fff;
+	border-radius: 8px;
+	display: block;
+}
+
+.project > ul > li > .container > .title > a {
+	color: #795548;
+	font-family: 'hastro';
+	cursor: pointer;
+	font-size: 130%;
+	text-decoration: none;
+}
+
+.project > ul > li > .container > .description {
+	margin-top: 0.5rem;
+	font-family: 'monaco';
+	font-weight: 700;
+	color: #424242;
 }
 
 /* Content :: END */
@@ -136,6 +173,11 @@ body {
 .footer {
 	background-color: #37474F;
 	color: #f0f0f0
+}
+
+.footer > .container > .center > a {
+	color: #f0f0f0 !important;
+	text-decoration: underline !important;
 }
 
 /* Footer :: END */
