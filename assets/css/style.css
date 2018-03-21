@@ -19,7 +19,6 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	left: 50%;
-	color: #f0f0f0;
 }
 
 a {
@@ -114,6 +113,30 @@ a {
 
 /* Header :: END */
 
+/* About Me */
+
+.about-me {
+	background-color: #fafafa;
+}
+
+.about-me > .container {
+	width: 60%;
+}
+
+.about-me > .container > .title {
+	color: cadetblue;
+	font-size: xx-large;
+}
+
+.about-me > .container > .description {
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+	font-family: 'monaco';
+	font-weight: 700
+}
+
+/* About Me :: END */
+
 /* Content ( project list ) */
 
 .flask-icon {
@@ -131,7 +154,11 @@ a {
 }
 
 .title-section {
-	padding-top: 40px
+	padding-top: 40px;
+}
+
+.title-section > h1 {
+	color: #f0f0f0;
 }
 
 .project {
@@ -180,4 +207,4 @@ a {
 	text-decoration: underline !important;
 }
 
-/* Footer :: END */
+/* Footer :: END 
