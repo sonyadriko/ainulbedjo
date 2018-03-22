@@ -6,8 +6,8 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f0f0f0;
-	font-family: 'hastro';
-	color: #37474f
+	font-family: 'Fredoka One';
+	color: #455A64;
 }
 
 .container {
@@ -55,7 +55,7 @@ a {
 
 .background-inner > .description {
 	margin-top: 2rem;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .description > span {
@@ -154,10 +154,11 @@ a {
 }
 
 .about-me > .container > .description {
+	font-size: 20px;
 	margin-top: 2rem;
 	margin-bottom: 5rem;
 	line-height: 2em;
-	font-family: 'monaco';
+	font-family: 'Share Tech';
 	font-weight: 700
 }
 
@@ -210,17 +211,18 @@ a {
 
 .project > ul > li > .container > .title > a {
 	color: #795548;
-	font-family: 'hastro';
+	font-family: 'Fredoka One';
 	cursor: pointer;
-	font-size: 130%;
+	font-size: 160%;
 	text-decoration: none;
 }
 
 .project > ul > li > .container > .description {
-	margin-top: 0.5rem;
-	font-family: 'monaco';
+	font-size: larger;
+	margin-top: 1rem;
+	font-family: 'Share Tech';
 	font-weight: 700;
-	color: #424242;
+	color: #616161;
 }
 
 /* Content :: END */
@@ -230,7 +232,7 @@ a {
 .footer {
 	background-color: #37474F;
 	color: #f0f0f0;
-	font-family: 'monaco'
+	font-family: 'Share Tech'
 }
 
 .footer > .container > .center > a {
